@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rates"
-        android:fontFamily="@font/roboto_medium"
-        android:textSize="20sp"
+        android:textColor="@null"
+        android:textAppearance="@style/TextAppearance.Header"
         android:layout_marginStart="72dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/activity_main_recycler_view"/>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <com.revolut.rxdiffadapter.AsyncDiffRecyclerView
         android:id="@+id/activity_main_recycler_view"
         android:layout_width="0dp"
         android:layout_height="0dp"

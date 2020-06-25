@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/currency_delegate_list_padding">
+
+    <ImageView
+        android:id="@+id/currency_delegate_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/currency_delegate_currency_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/currency_delegate_list_spacing"
+        android:textColor="@null"
+        android:textAppearance="@style/TextAppearance.TextPrimary"
+        tools:text="USD"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/currency_delegate_image"
+        app:layout_constraintBottom_toTopOf="@id/currency_delegate_currency_name"/>
+
+    <TextView
+        android:id="@+id/currency_delegate_currency_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/currency_delegate_list_spacing"
+        android:textColor="@null"
+        android:textAppearance="@style/TextAppearance.TextSecondary"
+        tools:text="US Dollar"
+        app:layout_constraintTop_toBottomOf="@id/currency_delegate_currency_code"
+        app:layout_constraintStart_toEndOf="@id/currency_delegate_image"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <EditText
+        android:id="@+id/currency_delegate_currency_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@null"
+        android:textAppearance="@style/TextAppearance.EditText"
+        tools:text="1183.06"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
