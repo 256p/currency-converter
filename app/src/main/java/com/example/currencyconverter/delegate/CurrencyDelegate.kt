@@ -1,22 +1,28 @@
 package com.example.currencyconverter.delegate
 
+import android.annotation.SuppressLint
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.annotation.DrawableRes
+import androidx.core.widget.addTextChangedListener
 import com.bumptech.glide.Glide
 import com.example.currencyconverter.R
 import com.example.currencyconverter.util.inflate
+import com.example.currencyconverter.util.round
 import com.revolut.recyclerkit.delegates.BaseRecyclerViewDelegate
 import com.revolut.recyclerkit.delegates.BaseRecyclerViewHolder
 import com.revolut.recyclerkit.delegates.ListItem
 import kotlinx.android.synthetic.main.currency_delegate.view.*
+import java.math.BigDecimal
 import java.util.*
 
 class CurrencyDelegate(
-    private val onClickListener: (Model) -> Unit,
+    private val onClickListener: (Model, Int) -> Unit,
     private val onValueChangedListener: (String) -> Unit
 ) : BaseRecyclerViewDelegate<CurrencyDelegate.Model, CurrencyDelegate.ViewHolder>(
         R.layout.currency_delegate,
@@ -31,12 +37,31 @@ class CurrencyDelegate(
         holder.takeIf { payloads.isNullOrEmpty() }?.applyData(data)
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     private fun ViewHolder.applyData(data: Model) {
-        itemView.setOnClickListener { onClickListener(data) }
+        itemView.setOnClickListener { onClickListener(data, adapterPosition) }
+        currencyValue.setOnTouchListener { _, event ->
+            if (event.action == MotionEvent.ACTION_UP && adapterPosition != 0) {
+                onClickListener(data, adapterPosition)
+            }
+            false
+        }
+        currencyValue.addTextChangedListener {
+            if (adapterPosition == 0) onValueChangedListener(it.toString())
+        }
         image.loadImage(getCountryFlagByCode(data.currencyCode))
         currencyCode.text = data.currencyCode
         currencyName.text = getCurrencyNameByCode(data.currencyCode)
-        currencyValue.setText(data.currencyValue.toString())
+        if (data.currencyValue >= Float.MAX_VALUE || data.currencyValue.isNaN() || data.currencyValue.isInfinite()) {
+            Toast.makeText(itemView.context, "Input value is too big", Toast.LENGTH_SHORT).show()
+            currencyValue.setText("Error")
+        } else {
+            currencyValue.setText(
+                BigDecimal(
+                    data.currencyValue.round(3).toString()
+                ).toPlainString()
+            )
+        }
     }
 
     private fun ImageView.loadImage(@DrawableRes imageRes: Int) =
@@ -377,7 +402,7 @@ class CurrencyDelegate(
     data class Model(
         override val listId: String,
         val currencyCode: String,
-        val currencyValue: Double
+        var currencyValue: Float
     ) : ListItem
 
     class ViewHolder(itemView: View) : BaseRecyclerViewHolder(itemView) {

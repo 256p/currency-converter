@@ -24,7 +24,10 @@
         <item name="fontFamily">@font/roboto_medium</item>
     </style>
 
-    <style name="TextAppearance.EditText" parent="TextAppearance.Header"/>
+    <style name="EditText" parent="TextAppearance.Header">
+        <item name="colorControlNormal">@color/edit_text_underline_normal</item>
+        <item name="colorControlActivated">@color/edit_text_underline_activated</item>
+    </style>
 
     <style name="TextAppearance.TextPrimary" parent="TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/text_primary_size</item>

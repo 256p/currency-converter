@@ -7,6 +7,9 @@ import io.reactivex.Single
 
 interface MainViewModel {
 
+    fun setBaseCurrency(baseCurrency: String)
     fun getCurrencyRatesObservable() : Observable<Data<Currency>>
-    fun requestCurrencyRates(base: String, forceReload: Boolean)
+    fun requestCurrencyRatesImmediately(base: String, forceReload: Boolean)
+    fun cancelUpdateRequests()
+    fun startUpdateRequests()
 }
