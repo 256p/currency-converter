@@ -5,6 +5,7 @@ import android.content.Context
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
@@ -48,6 +49,14 @@ class CurrencyDelegate(
             }
             false
         }
+        //hides keyboard when item which where in process of editing was switched down
+        if (currencyValue.isFocused) {
+            currencyValue.clearFocus()
+            val inputManager = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            inputManager.hideSoftInputFromWindow(itemView.applicationWindowToken, 0)
+        }
+
+        //send changed text only for the first item
         currencyValue.addTextChangedListener {
             if (adapterPosition == 0) onValueChangedListener(it.toString())
         }
@@ -59,9 +68,7 @@ class CurrencyDelegate(
             currencyValue.setText(context.getString(R.string.error))
         } else {
             currencyValue.setText(
-                BigDecimal(
-                    data.currencyValue.round(3).toString()
-                ).toPlainString()
+                BigDecimal(data.currencyValue.round(3).toString()).toPlainString()
             )
         }
     }

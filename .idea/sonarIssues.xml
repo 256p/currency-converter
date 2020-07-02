@@ -8,57 +8,132 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/data/db/entity/CurrencyEntity.kt">
+        <entry key="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/currencyconverter/dagger/InteractorModule_ProvideMainInteractorFactory.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/data/model/Currency.kt">
+        <entry key="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/currencyconverter/interactor/MainInteractorImpl_Factory.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/data/network/dto/CurrencyDto.kt">
+        <entry key="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/currencyconverter/viewmodel/MainViewModelImpl_Factory.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/delegate/CurrencyDelegate.kt">
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debugAndroidTest/com/example/currencyconverter/dagger/TestAppComponent.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/ui/activity/MainActivity.kt">
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debugAndroidTest/com/example/currencyconverter/dagger/TestAppModule.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/util/extensions.kt">
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/MainActivityInstrumentedTest.kt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/viewmodel/MainViewModelImpl.kt">
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/MockApiInterceptor.kt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/currency_delegate.xml">
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/RecyclerViewIdlingResource.kt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/RecyclerViewLoadingIdlingResource.kt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/TestApp.kt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/UiTestsRunner.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/Utils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestApiModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestAppComponent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestAppModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/idlingResources/RecyclerViewIdlingResource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/idlingResources/RecyclerViewLayoutIdlingResource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/resources/eur.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/App.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/dagger/ApiModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/dagger/AppComponent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/dagger/AppModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cats-catalog-master/app/src/androidTest/java/com/example/cats_catalog/espresso/SuccessfulDataRefreshTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cats-catalog-master/app/src/main/java/com/example/cats_catalog/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cats-catalog-master/app/src/main/java/com/example/cats_catalog/di/AppModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.kts">
           <value>
             <set />
           </value>
@@ -108,7 +183,57 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/ExampleInstrumentedTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/MainActivityInstrumentedTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/MockApiInterceptor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestAppComponent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestAppModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/di/TestAppModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/resources/eur.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/resources/usd.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/App.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/dagger/AppModule.kt">
           <value>
             <set />
           </value>
@@ -368,7 +493,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
           </value>
@@ -378,7 +518,222 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/LibsVersions.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/app/src/main/java/AspectAd1593392410640.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/app/src/main/java/AspectAd1593392760363.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/app/src/main/java/com/squirell/squirellapp/AppObj.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/app/src/main/java/com/squirell/squirellapp/view/DashboardActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../pubguard-android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/proguard-rules.pro">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/LibsVersions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/Pubguard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/extractor/AdColonyDataExtractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/extractor/FacebookAdDataExtractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/extractor/GoogleAdDataExtractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/extractor/InMobiAdDataExtractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/extractor/MopubAdDataExtractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/extractor/UnityAdDataExtractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/extractor/VerizonAdDataExtractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/gl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/gl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/utils/AdConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/java/com/bidstack/pubguard/utils/networkUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-android/pubguard/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/build.gradle.kts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/AndroidConfig.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/AspectJCompileTask.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/AspectJMergeJars.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/ClasspathFileCollection.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/DependenciesExportTask.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/jars/AspectJMergeJars.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/transform/AspectJTransform.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/transform/ExportLibraryVersionsTransformer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/transform/LibraryTransformer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/api/transform/transformers.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/plugin/AspectJPlugin.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/plugin/PluginSetup.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/plugin/test.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/app/src/main/java/com/bidstack/aspectj/utils/VariantUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/build.gradle.kts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pubguard-aspectj/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/_dummy_">
           <value>
             <set />
           </value>

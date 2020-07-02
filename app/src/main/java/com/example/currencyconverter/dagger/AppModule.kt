@@ -25,7 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 @Module
-open class AppModule {
+public class AppModule {
 
     @Provides
     @Singleton
@@ -49,23 +49,6 @@ open class AppModule {
             .connectionSpecs(connectionSpecs)
             .addInterceptor(loggingInterceptor)
             .build()
-    }
-
-    @Provides
-    @Singleton
-    fun provideApiInterface(client: OkHttpClient): ApiInterface {
-        val gson = GsonBuilder()
-            .setLenient()
-            .create()
-
-        val retrofit = Retrofit.Builder()
-            .baseUrl(BuildConfig.API_BASE_URL)
-            .client(client)
-            .addConverterFactory(GsonConverterFactory.create(gson))
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-            .build()
-
-        return retrofit.create(ApiInterface::class.java)
     }
 
     @Provides
