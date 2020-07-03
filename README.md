@@ -1,3 +1,3 @@
 # currency-converter
 
-<img src="Screenshot.png" style="zoom:33%; float: left;" />
+![](Screenshot.png|width=500)
