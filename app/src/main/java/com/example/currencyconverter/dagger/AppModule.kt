@@ -1,14 +1,11 @@
 package com.example.currencyconverter.dagger
 
 import android.content.Context
-import androidx.room.Database
 import androidx.room.Room
-import com.example.currencyconverter.BuildConfig
 import com.example.currencyconverter.data.db.AppDatabase
 import com.example.currencyconverter.data.network.ApiInterface
 import com.example.currencyconverter.data.network.ApiService
 import com.example.currencyconverter.util.SchedulerProvider
-import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
 import io.reactivex.Scheduler
@@ -19,9 +16,6 @@ import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.TlsVersion
 import okhttp3.logging.HttpLoggingInterceptor
-import retrofit2.Retrofit
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
-import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 @Module

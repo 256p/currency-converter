@@ -16,7 +16,7 @@ public class ApiModule {
 
     @Provides
     @Singleton
-    open fun provideApiInterface(client: OkHttpClient): ApiInterface {
+    fun provideApiInterface(client: OkHttpClient): ApiInterface {
         val gson = GsonBuilder()
             .setLenient()
             .create()

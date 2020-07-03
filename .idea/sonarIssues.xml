@@ -33,16 +33,6 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/MainActivityInstrumentedTest.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/MockApiInterceptor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/RecyclerViewIdlingResource.kt">
           <value>
             <set />
@@ -53,67 +43,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/TestApp.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/UiTestsRunner.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/Utils.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestApiModule.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestAppComponent.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/dagger/TestAppModule.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/idlingResources/RecyclerViewIdlingResource.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/example/currencyconverter/idlingResources/RecyclerViewLayoutIdlingResource.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/resources/eur.json">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/App.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/dagger/ApiModule.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/dagger/AppComponent.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/dagger/AppModule.kt">
           <value>
             <set />
           </value>

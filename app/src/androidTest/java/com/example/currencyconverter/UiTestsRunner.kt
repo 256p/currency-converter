@@ -1,7 +1,6 @@
 package com.example.currencyconverter
 
 import android.app.Application
-import android.app.Instrumentation
 import android.content.Context
 import androidx.test.runner.AndroidJUnitRunner
 

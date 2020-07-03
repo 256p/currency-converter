@@ -1,6 +1,5 @@
 package com.example.currencyconverter.idlingResources
 
-import android.view.View
 import android.view.ViewTreeObserver
 import androidx.test.espresso.IdlingResource
 import com.revolut.rxdiffadapter.AsyncDiffRecyclerView
